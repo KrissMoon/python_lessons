@@ -1,0 +1,10 @@
+viruchka = int(input('Выручка предприятия составила: '))
+izderzhki = int(input('Издержки предприятия составили: '))
+if viruchka > izderzhki:
+    print('Прибыль составила:', viruchka - izderzhki)
+    rent = (viruchka - izderzhki) / viruchka
+    print('Рентабельности составила:', rent)
+    n = int(input('Число сотрудников фирмы: '))
+    print('Прибыль предприятия в расчете на одного сотрудника:', (viruchka - izderzhki) / n )
+else:
+    print('Убыток составил:', izderzhki - viruchka)
