@@ -1,0 +1,3 @@
+n = str(input('Введите число: '))
+sum = int(n*3) + int(n*2) + int(n)
+print(sum)
