@@ -1,0 +1,3 @@
+new_list = [14, 'hello', 45.2, False, None, -19]
+types = [type(item) for item in new_list]
+print(types)
