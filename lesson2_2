@@ -1,0 +1,10 @@
+lst = []
+n = int(input("Enter number of elements : "))
+for i in range(0, n):
+    ele = int(input())
+    lst.append(ele)
+for index in range(0, len(lst) // 2):
+    temp = lst[index * 2]
+    lst[index * 2] = lst[index * 2 + 1]
+    lst[index * 2 + 1] = temp
+print(lst)
