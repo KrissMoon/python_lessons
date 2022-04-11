@@ -1,0 +1,4 @@
+user_str = input('Введите строку из нескольких слов через пробел: ')
+words = user_str.split()
+for i in range(0, len(words)):
+    print(words[i][0:10] + ' ' + str(i + 1))
